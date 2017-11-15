@@ -3,7 +3,7 @@ require 'test_helper'
 class UsersIndexTest < ActionDispatch::IntegrationTest
 
   def setup
-    @admin     = users(:michael)
+    @admin = users(:michael)
     @non_admin = users(:archer)
   end
 
@@ -29,4 +29,6 @@ class UsersIndexTest < ActionDispatch::IntegrationTest
     get users_path
     assert_select 'a', text: 'delete', count: 0
   end
+
+
 end
