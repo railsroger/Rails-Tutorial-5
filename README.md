@@ -1,4 +1,4 @@
-# Ruby on Rails Tutorial sample application
+# Ruby on Rails Tutorial sample application(Rails 5)
 
 This is the sample application for
 [*Ruby on Rails Tutorial:
